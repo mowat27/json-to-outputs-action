@@ -2,9 +2,8 @@
 
 if [ -z "$JSON" ] ; then
   cat >&2 <<EOF
-ERROR : JSON_DOC must be provided.
-        This variable should contain the data that is to be transformed
-        into outputs.
+ERROR : $JSON was empty or not set. This variable should contain the data 
+        that is to be transformed into outputs.
 EOF
   exit 1
 fi 
