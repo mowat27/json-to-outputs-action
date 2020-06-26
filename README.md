@@ -1,7 +1,6 @@
 # JSON to Outputs Action
 
-Applies a list of JMES expressions against a JSON document and echos each one 
-as a GitHub Actions output. 
+Prints the values of the top-level keys in a JSON document in the GitHub Actions [output format](https://help.github.com/en/actions/reference/workflow-commands-for-github-actions#setting-an-output-parameter).
 
 Nested values will be returned as JSON.
 
